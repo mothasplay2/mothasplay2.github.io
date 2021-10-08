@@ -1,6 +1,7 @@
 body {
   background: url(img/estre.gif);
   text-align: center;
+	
 }
 body,
 html {
@@ -10,6 +11,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor:none;
 }
 
 .b {
