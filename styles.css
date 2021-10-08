@@ -138,12 +138,16 @@ html {
   border-radius: 50%;
   border: 2px solid #fff;
 }
+.descrip0 {
+  display: flex;
 
+  justify-content: center;
+}
 .nombre {
   position: absolute;
   z-index: 6;
   top: 58%;
-  left: 45%;
+  margin: auto;
 }
 .nombre img {
   width: 130px;
