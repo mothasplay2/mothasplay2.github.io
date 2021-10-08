@@ -1,6 +1,7 @@
 body {
   background: url(img/estre.gif);
   text-align: center;
+	cursor:none;
 }
 body,
 html {
