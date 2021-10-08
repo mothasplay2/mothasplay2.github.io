@@ -7,7 +7,11 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .b {
   position: absolute;
   width: 100%;
@@ -32,9 +36,9 @@ html {
 }
 
 .c1 {
-  width: 240px;
-  height: 240px;
-  border-radius: 90px;
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
   opacity: 0.1;
   background: #fff;
   z-index: 1;
@@ -62,7 +66,7 @@ html {
   height: 230px;
   border-radius: 50%;
 
-  background: url(img/b13.gif);
+  background: url(img/2p.gif);
   border: 2px solid rgba(255, 255, 255, 0.3);
 
   background-position: center;
@@ -75,7 +79,7 @@ html {
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  background: url(img/q.png);
+  background: url(img/arbol.gif);
   background-position: center;
   background-size: cover;
   /*padding: -10px;*/
@@ -152,14 +156,23 @@ html {
 
   pointer-events: auto;
 }
-.queso > div {
+
+.queso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
   width: 560px;
   position: relative;
-  margin: 10% auto;
+
+  margin: 20% auto;
   padding: 0px 0px 0px 0px;
   border-radius: 50px;
   transition: opacity 400ms ease-in;
 }
+
 iframe {
   border: 50%;
 }
