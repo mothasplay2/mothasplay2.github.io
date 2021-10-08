@@ -146,7 +146,7 @@ html {
 .nombre {
   position: absolute;
   z-index: 6;
-  top: 360px;
+  top: 57%;
   margin: auto;
 }
 .nombre img {
