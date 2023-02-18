@@ -146,8 +146,8 @@ html {
 .nombre {
   position: absolute;
   z-index: 6;
-  top: 58%;
-  margin: auto;
+  top: 57%;
+  width: 130px;
 }
 .nombre img {
   width: 130px;
