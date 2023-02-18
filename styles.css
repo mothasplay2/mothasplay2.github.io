@@ -147,7 +147,11 @@ html {
   position: absolute;
   z-index: 6;
   top: 57%;
+<<<<<<< HEAD
   width: 130px;
+=======
+  margin: auto;
+>>>>>>> 4072b9d7a10f94e8fc1d0c04aab64c92e2c34d13
 }
 .nombre img {
   width: 130px;
